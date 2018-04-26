@@ -1,2 +1,2 @@
-# Animal-Kingdom
+# AnimalKingdom
 HW_6

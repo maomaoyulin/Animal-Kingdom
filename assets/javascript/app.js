@@ -94,7 +94,8 @@ renderButtons();
 $("body").on("click", ".gif", function() {
   // The attr jQuery method allows us to get or set the value of any attribute on our HTML element
   var src = $(this).attr("src");
-
+  //Pause gif pics at start.
+  //click to play and pause gif pics.
   if ($(this).hasClass("playing")) {
     $(this).attr("src", src.replace(/\.gif/i, "_s.gif"));
     $(this).removeClass("playing");
